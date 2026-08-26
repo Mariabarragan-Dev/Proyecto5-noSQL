@@ -19,7 +19,7 @@ connectDB();
 
 //ruta de bienvenida (para el arranque)
 app.get('/', (req, res) => {
-  res.json({ ok: true, message: 'API de Movies y Cinemas funcionando 🎬' });
+  res.json({ ok: true, message: 'API de Movies y Cinemas funcionando ' });
 });
 
 //rutas principales
